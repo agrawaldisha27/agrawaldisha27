@@ -1,0 +1,6 @@
+name;age;roll
+'akash';22;321
+'riya';23;121
+'shub';21;345
+'rags';22;332
+'disha';22;312

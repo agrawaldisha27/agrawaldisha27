@@ -1,0 +1,162 @@
+RULES OF VARIABLES
+-------------------
+1. can't start with number
+eg - 1='python',a1='python'
+2. no space
+eg- a 1='python'
+3. can't use spetial character
+eg- a$='hello',
+4. can't use key word
+eg- for='hiiiiiiii'
+--------------------------
+PYTHON OPERATORS
+7 TYPES
+1. Aithmatic (+,-,*,/,%,//,**)
+2. Cmparision/relational operator(<,>,<=,>=,!=,==
+3. Asignment(=,+=,-=,*=,/=,//=)
+4. Btwise(&,|,^)
+5. Lgical(and,or,not)
+6. Ientity(is,is not)
+7. Mmbership(in,not in)
+--------------------------
+( ) - Fnction,expression,tuple
+[ ] - List,indexing,slicing
+{ } - Set,dictionary
+< > - No use
+------------------------------------
+DATA TYPE IN PYTHON
+1. Numeric---int----a=5
+             float----b=5.5
+             complex----3+5j
+2. String---str----a='hello'
+3. List---list----my_list=[1,2,3,4,5,6,7,8,9]
+4. Tuple---tuple----my_tuple=(1,2,3,4,5,6)
+5. Set---set----{1,2,3,4,5,6}
+6. Dictionary---dict{key:value}
+7. Boolean---True,False
+------------------------------------
+
+
+
+
+
+
+
+
+
+----STRING----
+1. Indexing
+eg. H E L L O   W O R L D
+    0 1 2 3 4 5 6 7 8 9 10
+2. Slicing
+eg. a[starting point(defalt 0):stop(n+1):step(1)]
+
+----LIST----
+1. []
+2. Homo/Hetro
+3. Mutable
+4. Indexing/Slicing/Loop
+ 
+----TUPLE----
+1. ()
+2. Comma seprated
+3. Immutable
+4. Homo/Hetro
+5. Indexing/Slicing
+
+----SET----
+1. Unordered
+2. Indexind/Slicing is not used
+3. Unique collection
+4. {}
+
+----DICTIONARY----
+1. {}
+2. key:values
+3. Ordered
+4. No indexing/slicing
+
+----STATEMENTS----
+1. Condition/decision making---if---else(suits/indexing))
+2. Looping--For and while
+3. Expeted handling--try,expert
+
+----SIMPLE IF----
+if age<18:
+   print('A gift')
+if age>=18 and age<=20:
+   print('a gift')
+   print('a task')
+if age>20:
+   print('no gift')
+
+----LADDER----
+if age<18:
+   print('a gift')
+if age>=18 and age<=20:
+   print(a gift)
+   print('a task')
+else:
+     print('no gift')
+
+----NESTED----
+today=input()
+condition=input()
+if today=='saturday':
+   print('half day work')
+elif today=='sunday':
+     if condition=='sick':
+         print('rest')
+      else:
+           print('party')
+
+--------------------------------------
+range(start point(including)(by defalt 0),stop point(excluding),step(by defalt 1)
+--------------------------------------
+ 
+----LOOP----
+1. for loop
+2. while loop
+
+ eg.1. for i in[1,2,3,4,5]:
+         print(i)
+ 2.  t=[12,15,18,20,10,16]
+     for i in t:
+         if i%2==0 and i>10:
+             print (i)
+ 3.num =6  
+   while num>=5:
+        print('hello')
+        num+=1
+ 4. num =1
+while num<=5:
+        print('hello')
+        num+=1
+
+----FUNCTIONS----
+1. NO i/p NO o/p
+2. NO i/p BUT o/p
+3. i/p BUT NO o/p
+4. o/p AND i/p
+
+----------------------------------
+
+1. Taking Multiple i/p
+2. Returning Multiple o/p
+3. Keyword Argument 
+4. Default Values
+5. *args
+6. **kwarges
+--------------------------------------
+Module---.py file; eg- OS, Maths
+Packages---group of modules 
+Libraries---collection of packages
+
+
+
+
+
+
+
+
+
